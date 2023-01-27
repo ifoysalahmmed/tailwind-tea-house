@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tea House</title>
+    <!-- font awesome styles -->
+    <script
+      src="https://kit.fontawesome.com/3f424b5b1e.js"
+      crossorigin="anonymous"></script>
+    <!-- tailwind styles -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              primary_text: "#1C1C1C",
+              secondary_text: "#777777",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header class="container mx-auto p-12 md:p-6">
+      <!-- banner start -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div class="space-y-8 mt-6 md:mt-16">
+          <h1 class="text-7xl font-extrabold text-primary_text">
+            It's good tea time at The Tea House
+          </h1>
+          <p class="text-lg text-secondary_text">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button
+            class="text-xl font-bold text-white py-4 px-5 rounded-lg bg-gradient-to-r from-orange-400 via-orange-600 to-red-600">
+            Explore More
+          </button>
+        </div>
+        <div class="mt-16 md:mt-28 flex flex-col items-center">
+          <img src="images/banner.png" alt="" />
+          <div
+            class="flex justify-center items-center gap-4 py-2 px-6 w-fit shadow-lg rounded-lg border border-white -mt-2 md:-mt-4">
+            <i class="fa-solid fa-star fa-2x text-yellow-500"></i>
+            <div>
+              <h3 class="text-3xl font-extrabold text-primary_text">5.00</h3>
+              <p class="font-semibold text-secondary_text">
+                Trust Pilot Ratings
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner end -->
+    </header>
+    <!-- header end -->
+
+    
+  </body>
+</html>
